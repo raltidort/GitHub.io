@@ -1,60 +1,103 @@
 @import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
 
-html, body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	background: #000 url("bg.jpg") no-repeat center top;
-	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #000 url("bg.jpg") no-repeat center top;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
+
 #wrap {
-	width: 1000px;
-	margin: 0 auto;
+    width: 1000px;
+    margin: 0 auto;
 }
+
 header {
-	clear: both;
-	text-align:center;
+    clear: both;
+    text-align: center;
 }
+
 #logo {
-	padding: 10px;
+    padding: 10px;
 }
+
 nav {
-	padding: 10px;
+    padding: 10px;
 }
+
 nav ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
+
 nav li {
-	display: inline;
-	margin: 0 30px;
+    display: inline;
+    margin: 0 30px;
 }
+
 nav a {
-	color: #133450;
-	font-size:30px;
-	text-decoration:none;
-	font-weight: bold;
-	font-family: 'Permanent Marker', cursive;
+    color: #133450;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive;
 }
+
 nav a:hover {
-	color: white;
+    color: white;
 }
+
 section {
-	background-color:rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
+    overflow: auto;
 }
+
 .welcome {
-	padding: 10px 15px;
-	margin: 20px 0;
-	overflow: auto;
+    padding: 10px 15px;
+    margin: 20px 0;
+    overflow: auto;
 }
+
+<h1 > {
+    color: white;
+    font-size: 72px;
+    font-family: Geogia, serif
+}
+
+<h2 > {
+    color: #8CF0EF;
+    font-size: 25px font-family: Geogia, serif
+}
+
 footer {
-	background-color: transparent;
-	padding: 10px;
-	color: white;
-	text-align: center;
-	clear: both;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    clear: both;
 }
+
 footer a {
-	color: #8CF0EF;
+    color: #8CF0EF;
 }
+
+figure {
+    float: left;
+    font-size: 90%;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    margin: 10px 20px;
+    border: 1px solid white;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    color: white;
+    font-family: Georgia, serif;
