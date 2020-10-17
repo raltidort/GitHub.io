@@ -1,0 +1,99 @@
+body {
+    
+    background-color: pink;
+    font-family: Georgia;
+    background-image: url(seasonsbg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#wrap { width: 80%;
+    border: 1px solid white;
+    margin:  0 auto;
+}
+
+header img { width: 100%}
+
+
+header { background-color: #cccccc;
+    text-align: center;
+    font-size: 72px;
+}
+
+nav {
+    background-color: plum;
+}
+
+nav li {
+    display: inline;
+    
+}
+
+nav ul{margin: 0;
+padding:0;
+margin-right: 10px;
+font-size: 20px;
+}
+
+nav a {
+    color: white;
+    padding: 20px;
+}
+
+body.fall { 
+    background-image: none;
+    background-color: brown;
+}
+body.summer { 
+    background-image: none;
+    background-color: lightblue;
+}
+body.spring { 
+    background-image: none;
+    background-color: greenyellow;
+}
+body.winter { 
+    background-image: none;
+    background-color: lightcyan;
+}
+
+.fall nav {
+    background-color: sandybrown;
+}
+.winter nav {
+    background-color: darkblue;
+}
+.spring nav {
+    background-color: #e6e872;
+}
+.summer nav {
+    background-color: #9b871c;
+}
+
+section {
+    background-color: white;
+    padding: 40px;
+    overflow: auto;
+}
+
+div.box  {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: 10px solid black;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+padding: 10px;
+text-align: center;
+color: white;
+}
+
+.officer {
+    width: 30%;
+    float: right;
+}
