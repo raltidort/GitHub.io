@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Figure</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="figure1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div id="box">
+
+                <h1>Welcome</h1>
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+            </div>
+        </header>
+
+        <nav>
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="pictures/49er1.jpg" data-thumb="pictures/49er1.jpg" alt="49ers" />
+                    <a href="http://49ers.com"><img src="pictures/steve.jpg" data-thumb="pictures/steve.jpg" alt="steve" title="Best Players in 49ers History: #3 Steve Young" /></a>
+                    <img src="pictures/joe.jpg" data-thumb="pictures/joe.jpg" alt="joe" data-transition="slideInLeft" />
+                    <img src="pictures/jerry.jpg" data-thumb="pictures/jerry.jpg" alt="jerry" title="#htmlcaption" />
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                    <strong>Select</strong> <a href="https://www.youtube.com/watch?v=J62GsevPwiQ"><em>here</em></a> for am full list of the top 10.
+                </div>
+            </div>
+        </nav>
+
+        <section>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion.</figcaption>
+            </figure>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion.</figcaption>
+            </figure>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion.</figcaption>
+            </figure>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion.</figcaption>
+            </figure>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion.</figcaption>
+            </figure>
+            <figure><img src="skater.jpg">
+                <figcaption> This skater is a champion.</figcaption>
+            </figure>
+
+        </section>
+
+        <footer>
+            Footer
+        </footer>
+    </div>
+    <!--End wrap-->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+
+</html>

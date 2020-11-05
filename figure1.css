@@ -1,0 +1,11 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: indianred;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 75%;
+    background-color: palegoldenrod;
